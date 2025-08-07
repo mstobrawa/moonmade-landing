@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-playfair;
+  }
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #2f2a28 !important;
+  font-size: 48px !important;
+  top: 45%;
+}
+
+.swiper-button-prev {
+  left: -10px;
+}
+
+.swiper-button-next {
+  right: -10px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.swiper-slide-active {
+  transform: scale(1.1);
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 32px !important;
+  color: #2f2a28 !important;
+  transition: transform 0.2s ease;
+}
+
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+  transform: scale(1.2);
+}
