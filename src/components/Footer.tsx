@@ -25,7 +25,7 @@ export default function Footer() {
       </div>
 
       {/* Napis pod ikonami */}
-      <span className="text-moon-contrast font-playfair tracking-wide">
+      <span className="text-moon-contrast font-playfair tracking-wide text-center">
         © 2025 moonmade.pl – wszelkie prawa zastrzeżone
       </span>
     </footer>
