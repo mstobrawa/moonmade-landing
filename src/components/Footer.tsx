@@ -26,7 +26,7 @@ export default function Footer() {
 
       {/* Napis pod ikonami */}
       <span className="text-moon-contrast font-playfair tracking-wide text-center">
-        © 2025 moonmade.pl – wszelkie prawa zastrzeżone
+        © {new Date().getFullYear()} moonmade.pl – wszelkie prawa zastrzeżone
       </span>
     </footer>
   );
